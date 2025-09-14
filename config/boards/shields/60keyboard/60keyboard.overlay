@@ -17,21 +17,21 @@
                     &p1_06 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN),
                     &p2_04 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)
 
-        col-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>,
-                    <&gpio1 2 GPIO_ACTIVE_HIGH>,
-                    <&gpio1 1 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 7 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 8 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 9 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 10 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 16 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 14 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 15 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 18 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 19 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 20 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 21 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 2 GPIO_ACTIVE_HIGH>;
+        col-gpios = &p2_07 GPIO_ACTIVE_HIGH,
+                    &p2_02 GPIO_ACTIVE_HIGH,
+                    &p2_01 GPIO_ACTIVE_HIGH,
+                    &p1_07 GPIO_ACTIVE_HIGH,
+                    &p1_08 GPIO_ACTIVE_HIGH,
+                    &p1_09 GPIO_ACTIVE_HIGH,
+                    &p1_10 GPIO_ACTIVE_HIGH,
+                    &p2_00 GPIO_ACTIVE_HIGH,
+                    &p2_05 GPIO_ACTIVE_HIGH,
+                    &p2_06 GPIO_ACTIVE_HIGH,
+                    &p2_08 GPIO_ACTIVE_HIGH,
+                    &p2_09 GPIO_ACTIVE_HIGH,
+                    &p2_10 GPIO_ACTIVE_HIGH,
+                    &p2_11 GPIO_ACTIVE_HIGH,
+                    &p1_02 GPIO_ACTIVE_HIGH
 
     };
 
